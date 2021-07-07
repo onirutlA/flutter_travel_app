@@ -86,6 +86,19 @@ class DetailScreen extends StatelessWidget {
                 ),
               ),
               Padding(
+                padding: EdgeInsets.only(top: 16, left: 16),
+                child: Text(
+                  'Description',
+                  textAlign: TextAlign.left,
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 24,
+                    fontWeight: FontWeight.bold,
+                    fontFamily: 'Montserrat-Bold',
+                  ),
+                ),
+              ),
+              Padding(
                 padding: EdgeInsets.all(16.0),
                 child: Text(
                   travelObject.description,
