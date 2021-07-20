@@ -1,4 +1,4 @@
-# flutter_character_list
+# flutter_travel_app
 
 A new Flutter project.
 
